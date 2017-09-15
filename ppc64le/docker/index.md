@@ -1,3 +1,3 @@
 # Docker on Power
 
-## Cross compiling docker registery (distribution) on Power
+## Cross compiling docker registry (distribution) on Power
