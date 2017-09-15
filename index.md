@@ -1,4 +1,3 @@
-* [Power](https://nateucar.github.io/ppc64le)
-  * [Docker on Power](https://nateucar.github.io/ppc64le/docker)
-
+* Power
+  * [Cross compiling docker registry:2 (distribution) for Power](https://github.com/NCAR/docker.ppc64le.registry)
 
