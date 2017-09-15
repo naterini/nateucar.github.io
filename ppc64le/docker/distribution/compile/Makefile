@@ -1,0 +1,11 @@
+DOCKER_TAG      ?= registrybuild
+DEBRELEASE      ?= stretch
+GIT_TAG         ?= v2.6.2
+
+build: 
+	docker build \
+		--build-arg DEBRELEASE=$(DEBRELEASE) \
+		--build-arg GIT_TAG=$(GIT_TAG) \
+		--rm --network=host -t $(DOCKER_TAG) .
+
+
